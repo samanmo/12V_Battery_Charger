@@ -39,7 +39,7 @@ Based on the hierarchical schematic blocks in this repository, the power stage a
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
+   git clone https://github.com/samanmo/12V_Battery_Charger.git
    ```
 2. **Open in KiCad:**
    * Launch KiCad and open `2025_11_17_ver6.0.kicad_pro`.
