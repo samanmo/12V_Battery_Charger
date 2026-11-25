@@ -60,3 +60,65 @@ Based on the hierarchical schematic blocks in this repository, the power stage a
 ## License
 
 This project is licensed under the **MIT License** — see the [LICENSE](./LICENSE) file for details.
+
+
+# 12V ハーフブリッジLLC バッテリーチャージャー
+240V AC商用電源入力向けに設計された高効率な12Vバッテリーチャージャーです。力率改善（PFC）フロントエンドと、STM32マイクロコントローラによって制御されるハーフブリッジLLC共振コンバータを採用しています。
+> **⚠️ 高電圧に関する警告:**  本設計は240V AC商用電源に直接接続され、致死的な高電圧DCバスを生成します。高電圧パワーエレクトロニクスを取り扱う資格を有し、適切な絶縁手順（絶縁トランスや差動プローブの使用など）を遵守できる場合を除き, 本ハードウェアの製作、テスト、またはプロービングを行わないでください。
+
+---
+
+## 主な特徴とアーキテクチャ
+本リポジトリ内の階層型回路図ブロックに基づく、パワーステージおよび制御アーキテクチャの構成は以下の通りです：
+
+* **AC入力およびEMIフィルタリング (emf_filter.kicad_sch)：** 商用電源入力保護、突入電流制限（NTC/PTC）、バリスタ、およびコモンモード／ノーマルモードチョークコイルを備えています。
+
+* **ハーフブリッジLLC共振ステージ (llc_power.kicad_sch)：** カスタムトランスと絶縁型ゲートドライバ（UCC256404）を使用した高周波共振タンクです。
+
+* **二次側整流および出力 (secondary_power.kicad_sch, output_filtering.kicad_sch, output_protection.kicad_sch)：** 二次側整流、LC出力フィルタリング、および逆接続・過電圧・過電流保護（ACS720電流センシング）を搭載しています。
+
+* **補助電源およびバイアス電源 (auxiliary_power.kicad_sch, bias_power_supply.kicad_sch)：** 一次側および二次側の制御ICに電力を供給する専用の補助電源です。
+
+* **デジタル制御および監視 (STM32Controller.kicad_sch, temperature_sensing.kicad_sch)：** STM32ベースのPWM生成、充電プロファイル制御（CC/CV）、および温度監視を行います。
+
+
+## リポジトリ構成
+
+```text
+├── 2025_11_17_ver6.0.kicad_pro    # メインKiCadプロジェクトファイル
+├── 2025_11_17_ver6.0.kicad_sch    # ルート階層回路図
+├── 2025_11_17_ver6.0.kicad_pcb    # メインPCBレイアウト
+├── *.kicad_sch                    # 階層サブ回路図（PFC、LLC、STM32など）
+├── *.kicad_sym                    # プロジェクト固有のカスタムシンボルライブラリ
+├── *.pretty/                      # プロジェクト固有のカスタムフットプリントライブラリ
+├── sym-lib-table & fp-lib-table   # ローカルライブラリパスマッピング
+├── BatteryCharger_pdf/            # エクスポートされた回路図・ドキュメントPDF
+├── 2025_11_17_ver6.0.xlsx         # 部品表（BOM）
+└── Design Rules.txt               # PCBレイアウトおよびクリアランス設計ルール
+
+---
+
+## はじめに
+1. **リポジトリのクローン：**
+```bash
+	git clone https://github.com
+```
+
+2. **KiCadで開く：**
+	* KiCadを起動し、2025_11_17_ver6.0.kicad_pro を開きます。
+	* すべてのカスタムシンボル（.kicad_sym）およびフットプリント（.pretty）はリポジトリ内にローカル保存されており、sym-lib-table および fp-lib-table を介してマッピングされています。
+---
+
+
+## レンダリングと回路図
+	* 完全な回路図PDFは BatteryCharger_pdf/ ディレクトリにあります。
+
+---
+## ライセンス (License)
+
+このプロジェクトは [MITライセンス](LICENSE) の下で公開されています。
+
+
+
+
+
