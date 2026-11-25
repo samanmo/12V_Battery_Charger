@@ -1,0 +1,4866 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "fc446ffe-70fa-416c-85ce-38bc7bd142bf")
+	(paper "A4")
+	(lib_symbols
+		(symbol "+12V_1"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR052"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+12VSec"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+12V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+12V_1_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+12V_1_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+12VSec"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driver_FET:UCC24624D"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.175 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UCC24624"
+				(at 10.795 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/product/UCC24624"
+				(at 11.43 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "The UCC24624 high-performance synchronous rectifier (SR) controller is dedicated for LLC resonant converters to replace the lossy diode output rectifiers with SR MOSFETs and improve the overall system efficiency."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "UCC24624 SOIC (8) 4.90 mm × 3.91 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UCC24624D_1_1"
+				(rectangle
+					(start 0 32.385)
+					(end 23.495 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "UCC24624"
+					(at 12.065 29.21 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 27.305 0)
+					(length 2.54)
+					(name "VG1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 19.685 0)
+					(length 2.54)
+					(name "PGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -2.54 12.065 0)
+					(length 2.54)
+					(name "REG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 4.445 0)
+					(length 2.54)
+					(name "VD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.035 4.445 180)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 26.035 12.065 180)
+					(length 2.54)
+					(name "VD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 26.035 19.685 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 26.035 27.305 180)
+					(length 2.54)
+					(name "VG2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Driver_FET:UCC27524"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 1.27 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UCC27524"
+				(at 10.795 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/product/UCC27524"
+				(at 9.525 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "The UCC2752x family of devices are dual-channel high-speed, low-side gate-driver devices capable of effectively driving MOSFET and IGBT power switches."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "UCC27524 Gate Drive Low Side SOIC-8 (D), MSOP-8, WSON-8, 3-mm × 3-mm WSON (DSD)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UCC27524_1_1"
+				(polyline
+					(pts
+						(xy 6.35 3.175) (xy 3.81 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 13.335) (xy 3.81 13.335)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 3.175) (xy 12.7 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.89 13.335) (xy 12.7 13.335)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 13.97) (xy 7.62 18.415) (xy 4.445 18.415)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 4.445) (xy 8.89 3.175) (xy 6.35 1.905) (xy 6.35 4.445)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 14.605) (xy 8.89 13.335) (xy 6.35 12.065) (xy 6.35 14.605)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 3.81) (xy 7.62 6.985) (xy 10.795 6.985) (xy 10.795 18.415) (xy 13.97 18.415)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0 21.59)
+					(end 18.415 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "UCC27524"
+					(at 8.89 20.32 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 18.415 0)
+					(length 2.54)
+					(name "ENA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 13.335 0)
+					(length 2.54)
+					(name "INA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 8.255 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -2.54 3.175 0)
+					(length 2.54)
+					(name "INB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.955 3.175 180)
+					(length 2.54)
+					(name "OUTB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 20.955 8.255 180)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 20.955 13.335 180)
+					(length 2.54)
+					(name "OUTA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 20.955 18.415 180)
+					(length 2.54)
+					(name "ENB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "power:SGND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "SGND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"SGND\" , Secondary ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SGND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SGND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "SGND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 99.695 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0118be20-5d74-4c6f-bebc-8cc7e4ecce4e")
+	)
+	(junction
+		(at 185.42 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2971e312-e62e-4b1a-b2e2-eaeb2560b4b4")
+	)
+	(junction
+		(at 156.21 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31a0c4b0-a706-4f24-9b83-f51022a89834")
+	)
+	(junction
+		(at 115.57 164.465)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3afaa33e-4b97-4a71-bc21-4b3e1b6781f9")
+	)
+	(junction
+		(at 66.04 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c39078d-b531-4ddf-8256-6ee4d2674e79")
+	)
+	(junction
+		(at 141.605 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65a504fb-f799-464a-93c8-1e4fe64ae30a")
+	)
+	(junction
+		(at 184.785 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "826aadf2-08a5-4f7c-870b-72740477247c")
+	)
+	(junction
+		(at 144.145 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85d5f448-0002-4f11-802a-05280f204a85")
+	)
+	(junction
+		(at 191.77 145.415)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2c0e0ef-41e6-4435-baa4-a894357db56b")
+	)
+	(wire
+		(pts
+			(xy 59.055 58.42) (xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0615be27-48db-4559-9138-96abdeb9608f")
+	)
+	(wire
+		(pts
+			(xy 201.295 43.18) (xy 222.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07eb4e24-9317-4061-97c2-147ef46353aa")
+	)
+	(wire
+		(pts
+			(xy 144.145 69.85) (xy 144.145 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "099477df-86ca-4868-9a6d-b492fe158108")
+	)
+	(wire
+		(pts
+			(xy 142.24 135.255) (xy 154.305 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b11798c-67e5-4e6c-b30a-bdd7e362387b")
+	)
+	(wire
+		(pts
+			(xy 156.21 43.18) (xy 156.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e2151f4-6cd4-4293-897c-04b5944d42ec")
+	)
+	(wire
+		(pts
+			(xy 45.72 58.42) (xy 51.435 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14edc08b-f68f-47df-a6b2-1a1309c42ddc")
+	)
+	(wire
+		(pts
+			(xy 156.21 67.31) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177b5993-ee7e-40bf-bd52-d48cdb6514b9")
+	)
+	(wire
+		(pts
+			(xy 137.795 58.42) (xy 141.605 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b8340d8-c1f6-4d79-a516-a3068634f37c")
+	)
+	(wire
+		(pts
+			(xy 99.695 71.12) (xy 99.695 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258a54b6-a92a-4221-803f-cfbbc107a0b8")
+	)
+	(wire
+		(pts
+			(xy 144.145 58.42) (xy 144.145 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2947cd7d-918f-4574-8d47-343e55ef77ac")
+	)
+	(wire
+		(pts
+			(xy 144.145 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa92d92-7c59-42dc-bd89-a16cb16206ef")
+	)
+	(wire
+		(pts
+			(xy 115.57 164.465) (xy 115.57 174.625)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e9f8a6-954e-4f13-8e9d-2339b4f252ff")
+	)
+	(wire
+		(pts
+			(xy 115.57 164.465) (xy 124.46 164.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390a0f82-3c4b-43de-83bb-897efd4e8d09")
+	)
+	(wire
+		(pts
+			(xy 85.09 135.255) (xy 118.745 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a3276c9-516c-4e2e-8c50-c2df018c7def")
+	)
+	(wire
+		(pts
+			(xy 115.57 145.415) (xy 118.745 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc29b2d-308c-4e2c-8599-6229add07d6d")
+	)
+	(wire
+		(pts
+			(xy 99.695 72.39) (xy 144.145 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f26f369-5410-4578-8eb1-9727b15b2065")
+	)
+	(wire
+		(pts
+			(xy 107.315 150.495) (xy 118.745 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "423c720b-b245-409e-bfe6-08cfbbbdf8c3")
+	)
+	(wire
+		(pts
+			(xy 222.25 36.83) (xy 222.25 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e1ee96-1d1e-4a4c-8270-28a6a810a813")
+	)
+	(wire
+		(pts
+			(xy 88.265 43.18) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504baba6-dbfd-4a5c-a554-9238288cc460")
+	)
+	(wire
+		(pts
+			(xy 115.57 145.415) (xy 115.57 164.465)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a74573-13c6-4713-b20f-436a8daf7e9d")
+	)
+	(wire
+		(pts
+			(xy 217.805 139.7) (xy 217.805 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58137135-e104-462f-94bb-97f64569680f")
+	)
+	(wire
+		(pts
+			(xy 137.795 43.18) (xy 156.21 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59bbc227-7ac5-4858-862f-5bed60d304c5")
+	)
+	(wire
+		(pts
+			(xy 215.265 50.8) (xy 222.25 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59dfad1c-122e-422c-8498-6f2f73bef7d2")
+	)
+	(wire
+		(pts
+			(xy 107.315 140.335) (xy 118.745 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654aac0a-09fd-4b61-8103-dbe4a62291a1")
+	)
+	(wire
+		(pts
+			(xy 43.815 35.56) (xy 58.42 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c088434-1723-4a16-b396-5c41dd0ddd7b")
+	)
+	(wire
+		(pts
+			(xy 68.58 135.255) (xy 77.47 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f7061a4-28c4-4059-a2af-ee2418b10465")
+	)
+	(wire
+		(pts
+			(xy 184.785 50.8) (xy 207.645 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "752c08b1-26ff-42da-a982-2949883b4981")
+	)
+	(wire
+		(pts
+			(xy 156.21 43.18) (xy 185.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75868f95-7f7c-40f6-9710-96eafe2320d9")
+	)
+	(wire
+		(pts
+			(xy 185.42 43.18) (xy 193.675 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7be54033-385c-427c-a0a9-96e197e9c598")
+	)
+	(wire
+		(pts
+			(xy 205.105 145.415) (xy 217.805 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "856de374-0f5d-400e-9a24-d1d563fb9877")
+	)
+	(wire
+		(pts
+			(xy 99.695 72.39) (xy 99.695 80.645)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86150d78-e2a5-465e-ac0e-df058639bda0")
+	)
+	(wire
+		(pts
+			(xy 191.77 145.415) (xy 197.485 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89968eb3-7a75-40ee-a35a-978edc3ebf76")
+	)
+	(wire
+		(pts
+			(xy 142.24 140.335) (xy 154.305 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ef19c89-b67f-439a-9b39-0cf1bba0ab9e")
+	)
+	(wire
+		(pts
+			(xy 142.24 145.415) (xy 191.77 145.415)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8efcf58e-e775-4949-97aa-5a173fea2b87")
+	)
+	(wire
+		(pts
+			(xy 66.04 35.56) (xy 109.22 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99670f07-dcad-433d-81b3-a69f62056501")
+	)
+	(wire
+		(pts
+			(xy 137.795 50.8) (xy 184.785 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af73d030-9c83-47db-ab65-af6c75e11ca3")
+	)
+	(wire
+		(pts
+			(xy 161.925 150.495) (xy 181.61 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b265a45c-545d-45fd-9e3a-3b6165152d83")
+	)
+	(wire
+		(pts
+			(xy 66.04 58.42) (xy 109.22 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba048f04-56c3-4e8b-b20e-40b77cd6e969")
+	)
+	(wire
+		(pts
+			(xy 142.24 150.495) (xy 154.305 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be149da1-bb88-4fd7-8783-eb3449718ffb")
+	)
+	(wire
+		(pts
+			(xy 137.795 35.56) (xy 147.955 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf0ad0ba-777a-4d35-8de0-f62fb49833b6")
+	)
+	(wire
+		(pts
+			(xy 88.265 43.18) (xy 88.265 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c251c003-b6df-4ed7-a311-64afdb8316da")
+	)
+	(wire
+		(pts
+			(xy 88.265 72.39) (xy 99.695 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c372e66f-6150-4183-b7d7-5d40154796d3")
+	)
+	(wire
+		(pts
+			(xy 184.785 57.785) (xy 184.785 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd551b3-7ee1-443c-83ed-32fea8d811d8")
+	)
+	(wire
+		(pts
+			(xy 66.04 67.31) (xy 66.04 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1bc7b41-9fe5-4af7-bc77-748447078f37")
+	)
+	(wire
+		(pts
+			(xy 185.42 36.83) (xy 185.42 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6612c17-30f1-4f83-962c-d38cc0ddc2cb")
+	)
+	(wire
+		(pts
+			(xy 141.605 58.42) (xy 144.145 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9eb39d0-c51f-41a6-9a6d-a2159c3ba29b")
+	)
+	(wire
+		(pts
+			(xy 99.695 50.8) (xy 99.695 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f166783b-96da-4a64-b601-88101f66518d")
+	)
+	(wire
+		(pts
+			(xy 155.575 35.56) (xy 161.925 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f18e0418-a9f2-49e8-b1be-2c7b847de557")
+	)
+	(wire
+		(pts
+			(xy 99.695 50.8) (xy 109.22 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fd6bab-95d9-4f73-a5a9-49307632fdb2")
+	)
+	(wire
+		(pts
+			(xy 88.9 140.335) (xy 99.695 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7915830-a453-4aeb-951c-d706fc18620b")
+	)
+	(wire
+		(pts
+			(xy 161.925 140.335) (xy 177.8 140.335)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7be1ef6-c6db-4807-b0b2-ea9ce1edef0c")
+	)
+	(wire
+		(pts
+			(xy 88.265 150.495) (xy 99.695 150.495)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80dce70-8760-4a92-b863-bb7f93ac6204")
+	)
+	(wire
+		(pts
+			(xy 161.925 135.255) (xy 170.815 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa985a72-f026-44ec-8397-c6ef6ee8cf7c")
+	)
+	(label "G1_C"
+		(at 101.6 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "322376c5-96ff-4770-8dfa-b3a913ca94da")
+	)
+	(label "INB"
+		(at 109.22 150.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "57ba7b3c-e191-498a-ae20-0c4353edd382")
+	)
+	(label "UCC24624_VD#1"
+		(at 67.945 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63da4a5b-a348-4042-9b26-7d7c0d77fda0")
+	)
+	(label "+12VSec_UCC24624"
+		(at 161.29 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "73b8561a-e8c0-478c-a74a-6b8f0b98a222")
+	)
+	(label "ENB"
+		(at 145.415 135.255 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "839e0cf3-1cd8-4c6c-93f7-6a9bc865a57c")
+	)
+	(label "G1_D"
+		(at 146.685 150.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d92a48a-e5aa-41db-8829-a495fbc8d42c")
+	)
+	(label "G2_D"
+		(at 146.05 140.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "92767793-b7f8-4f2f-8f22-d0bf9f363e0c")
+	)
+	(label "REG"
+		(at 100.965 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c08b8b36-dde9-4121-af5f-63353fc1a8b9")
+	)
+	(label "VSS"
+		(at 144.145 61.595 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2f9ec0e-9835-4ad8-86dd-7ebc57d99fd7")
+	)
+	(label "ENA"
+		(at 112.395 135.255 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d33c262c-3ba6-4335-8793-be98b9e701b6")
+	)
+	(label "+12VSec_UCC27524"
+		(at 163.195 145.415 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfc4ea30-f745-44e8-930c-9fdae0cc529b")
+	)
+	(label "G2_C"
+		(at 141.605 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f11455be-7018-4b1f-bf2d-1575e76e1fdc")
+	)
+	(label "UCC24624_VD#2"
+		(at 161.925 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f519f022-2c44-438e-87ea-b711cd76a47b")
+	)
+	(label "INA"
+		(at 109.22 140.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "fcfe6375-a0c3-4235-bc1d-c91da07cc924")
+	)
+	(hierarchical_label "VD2"
+		(shape input)
+		(at 222.25 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "135c2058-474b-4cbf-bf5f-defe509bd316")
+	)
+	(hierarchical_label "G2"
+		(shape output)
+		(at 161.925 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "16955ddd-f756-4368-b96a-a4aa0def70c6")
+	)
+	(hierarchical_label "G2"
+		(shape output)
+		(at 177.8 140.335 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18fa80a6-0ee3-41a2-9ab0-27757509f3c4")
+	)
+	(hierarchical_label "UCC27524_ENA"
+		(shape input)
+		(at 68.58 135.255 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "56a1c3fe-2f1c-4a9a-9e2b-3bf7d4999319")
+	)
+	(hierarchical_label "VD2"
+		(shape input)
+		(at 88.265 150.495 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a3931df-ede5-4bd6-94d4-7ed19bdef15a")
+	)
+	(hierarchical_label "UCC27524_ENB"
+		(shape input)
+		(at 170.815 135.255 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "87b9ba59-d899-4fac-957b-a4fb7ec2a354")
+	)
+	(hierarchical_label "VD1"
+		(shape input)
+		(at 88.9 140.335 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9be707dd-4d92-4102-9c17-6242176babf3")
+	)
+	(hierarchical_label "G1"
+		(shape input)
+		(at 43.815 35.56 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a42e6d31-9110-4823-b35c-faff22e77812")
+	)
+	(hierarchical_label "VD1"
+		(shape input)
+		(at 45.72 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e6b4ce1e-72c0-4d15-9695-b1a545a8c017")
+	)
+	(hierarchical_label "G1"
+		(shape output)
+		(at 181.61 150.495 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efb91de7-60bf-4041-9fa3-ec36fdd83404")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 191.77 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1cf98758-5445-4cef-ad8c-732fe99b30a2")
+		(property "Reference" "#FLG02"
+			(at 191.77 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 193.675 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 191.77 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f430c684-3d21-45d7-8b5c-063cacd70696")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.115 150.495 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d2674c4-3572-4f71-ace2-738d088fcd47")
+		(property "Reference" "R64"
+			(at 155.575 153.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 160.02 153.035 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 158.115 152.273 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 158.115 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.115 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 158.115 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 158.115 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 158.115 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 158.115 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f75945f-1c0f-43c0-899d-45c9668b841a")
+		)
+		(pin "2"
+			(uuid "1be9b28c-38fa-4c48-8b9a-693edd15ced8")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:SGND")
+		(at 99.695 80.645 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "300d748b-0ced-4da1-9ad8-36fb1528c732")
+		(property "Reference" "#PWR055"
+			(at 99.695 86.995 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SGND"
+			(at 99.695 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.695 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.695 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c0c566a-a249-4830-a2be-95b1fc45d2dc")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.115 135.255 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "3324eb73-9de8-4745-bc6e-09d7b2457e51")
+		(property "Reference" "R62"
+			(at 154.94 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 159.385 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 158.115 137.033 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 158.115 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.115 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 158.115 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 158.115 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 158.115 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 158.115 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aff21ef5-196b-4428-85d0-de2327e7bd3f")
+		)
+		(pin "2"
+			(uuid "84d5d67a-6ba7-476c-8a45-dec2a77b9c66")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 62.23 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3511ecb1-b948-4923-9335-de9118e26687")
+		(property "Reference" "R65"
+			(at 62.23 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 60.96 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 62.23 37.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 62.23 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "663f55d5-266d-4ee3-8c10-28d7e8c4361e")
+		)
+		(pin "2"
+			(uuid "15a9ae43-25f3-4511-b1a2-9cb7999c47c8")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:SGND")
+		(at 115.57 174.625 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ed4aa01-8818-41a0-a101-9923b6f686ad")
+		(property "Reference" "#PWR051"
+			(at 115.57 180.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SGND"
+			(at 115.57 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 174.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "91b74f32-7e16-4b1c-824e-341d0d0ce7c2")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 135.255 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "50feefe0-dfe7-47c2-bb7e-1918d325bbe4")
+		(property "Reference" "R59"
+			(at 79.375 132.715 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 84.455 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 81.28 137.033 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 81.28 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 81.28 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 81.28 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 81.28 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 81.28 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53df3095-d46c-4b38-9478-e3c45e9d660e")
+		)
+		(pin "2"
+			(uuid "6d2285bc-53ce-4946-b698-87dcccb89e6e")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:UCC27524")
+		(at 121.285 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "575c376e-189a-4b60-b720-5e0ac57665f3")
+		(property "Reference" "U8"
+			(at 130.4925 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UCC27524D"
+			(at 130.4925 130.175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_Project:D0008A_M"
+			(at 121.285 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/UCC27524"
+			(at 130.81 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.285 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "296-30162-5-ND"
+			(at 121.285 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCC27524D"
+			(at 121.285 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-UCC27524D"
+			(at 121.285 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C465729"
+			(at 121.285 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "001df31b-47b1-48d4-82c6-b6153daf9325")
+		)
+		(pin "2"
+			(uuid "eb43daba-ea60-4512-bdf3-8205f84f757c")
+		)
+		(pin "3"
+			(uuid "f839d54d-3b40-41ec-bb73-b8c68e742b71")
+		)
+		(pin "4"
+			(uuid "08f56a81-061e-47df-acab-219d3eb5454f")
+		)
+		(pin "5"
+			(uuid "49159c8b-7cfe-4362-95ca-19edca275b3e")
+		)
+		(pin "6"
+			(uuid "16b85826-183a-4790-aa41-da2a22302274")
+		)
+		(pin "7"
+			(uuid "cdde6a27-01c9-4f96-b6de-55e7b3b09b04")
+		)
+		(pin "8"
+			(uuid "0cfd20fa-de07-4d72-bf28-d6d34ad7f3a4")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.295 145.415 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5839a1c4-dfb1-4ec5-aeae-7a44c143b507")
+		(property "Reference" "R71"
+			(at 201.295 149.225 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 201.295 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 201.295 147.193 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 201.295 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.295 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 201.295 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 201.295 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 201.295 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 201.295 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17234c61-1480-4786-8cb9-e5590cb0c8ea")
+		)
+		(pin "2"
+			(uuid "5fbc7bb7-61a6-446c-8195-a4d77d70f729")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 103.505 140.335 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60fa7a75-52b3-417b-97f6-fd91a0eaea3a")
+		(property "Reference" "R60"
+			(at 102.87 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 104.14 140.335 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 103.505 142.113 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 103.505 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 103.505 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 103.505 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 103.505 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 103.505 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fccbbc8-1975-479a-99a3-755f03479722")
+		)
+		(pin "2"
+			(uuid "21635d1a-f27d-4746-81e5-bef8aefb1084")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 185.42 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6abc46b1-ba13-4fa9-b851-70a191bedee8")
+		(property "Reference" "#FLG05"
+			(at 185.42 34.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 186.055 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 185.42 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19314d50-102b-4f1a-baea-3356357d30a3")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 103.505 150.495 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c7b7d35-36bc-4011-8545-ebc0fd189c54")
+		(property "Reference" "R61"
+			(at 103.505 153.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 103.505 150.495 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 103.505 152.273 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 103.505 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 103.505 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 103.505 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 103.505 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 103.505 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 103.505 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9420b760-58eb-4d02-b41e-679c58cf6dd3")
+		)
+		(pin "2"
+			(uuid "76c2e1f2-fd93-4bdb-a28b-6b8b87377955")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:SGND")
+		(at 66.04 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a6780c5-7ae6-4de5-81c9-a1774114d4d2")
+		(property "Reference" "#PWR0119"
+			(at 66.04 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SGND"
+			(at 66.04 79.375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "067ffb35-1818-46ce-84e3-48dbc001d57a")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.115 140.335 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c53823d-54be-4e10-a4e9-f9215244d6a0")
+		(property "Reference" "R63"
+			(at 158.115 137.795 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 158.115 142.875 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 158.115 142.113 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 158.115 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 158.115 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 158.115 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 158.115 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 158.115 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 158.115 140.335 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64a91692-ef69-4037-bb79-b73e51020ce9")
+		)
+		(pin "2"
+			(uuid "bd300c64-16e8-4fa1-88f3-a9ebb18a6d7e")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.145 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2fa65b2-877c-4f79-aac2-918d80591440")
+		(property "Reference" "R69"
+			(at 141.605 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30R"
+			(at 144.145 65.405 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 145.923 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC1206FR-0730RL/728798"
+			(at 144.145 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.145 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-30.0FRCT-ND"
+			(at 144.145 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC1206FR-0730RL"
+			(at 144.145 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC1206FR-0730RL"
+			(at 144.145 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907480"
+			(at 144.145 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7eb24962-0812-4994-9877-be8b2127b133")
+		)
+		(pin "2"
+			(uuid "bc3a2ba8-8dfc-40c6-8961-0a7c8a30931e")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.765 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a747700a-6330-484f-bc9a-62dc577a53a7")
+		(property "Reference" "R67"
+			(at 151.765 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 151.765 38.735 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 151.765 33.782 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 151.765 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.765 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 151.765 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 151.765 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 151.765 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 151.765 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc463235-e1e1-4775-bed7-a275e23422e3")
+		)
+		(pin "2"
+			(uuid "7a35cca3-14df-48bb-9cc7-e0a381b9d07e")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 217.805 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abb3def4-65aa-4497-9eff-81a4e31b356c")
+		(property "Reference" "#PWR049"
+			(at 217.805 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VSec"
+			(at 217.805 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.805 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.805 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.805 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f172ae3-100b-43fc-abd6-1963d9c01e74")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acd8e133-ebf4-4cd8-ac82-09eed4ba0c73")
+		(property "Reference" "C132"
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF/50V"
+			(at 69.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 67.0052 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0805JRNPO9BN101/302845"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-1111-1-ND"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0805JRNPO9BN101"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC805JRNPO9BN101"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C62768"
+			(at 66.04 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01dd1411-879b-47d2-b86e-1b5a9a197f96")
+		)
+		(pin "2"
+			(uuid "0f29813d-c7d6-4595-a90b-1c122ad45a3f")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "C132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 124.46 164.465 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad4d62d7-4ab1-4ae3-8dab-3311b1fd6c9b")
+		(property "Reference" "#FLG020"
+			(at 124.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 124.46 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 164.465 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8469a45d-a9b5-4bda-bcd0-055d91b28878")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#FLG020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 197.485 43.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "af437371-eb9e-4c1c-92ed-3ca262a8607d")
+		(property "Reference" "R70"
+			(at 197.485 46.355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 197.485 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 197.485 44.958 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 197.485 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 197.485 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 197.485 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 197.485 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 197.485 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 197.485 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35fc908b-a93c-44de-b282-decc5e1fdea4")
+		)
+		(pin "2"
+			(uuid "0ea904c1-37c8-4684-bb7a-bcd3d3a00d66")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 99.695 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4e1112a-fe15-4015-96c9-a2bb2965e35a")
+		(property "Reference" "C69"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF/16V"
+			(at 102.87 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 100.6602 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B225KAFNFNE/3888611"
+			(at 99.695 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 99.695 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "1276-2953-1-ND"
+			(at 99.695 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B225KAFNFNE"
+			(at 99.695 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B225KAFNFNE"
+			(at 99.695 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C19110"
+			(at 99.695 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f41125a-39cf-4227-b078-f840183643e1")
+		)
+		(pin "2"
+			(uuid "0b968575-6bb0-4504-b8d2-3e557ec361e6")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "C69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:SGND")
+		(at 184.785 65.405 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc490aef-d098-450d-9a35-4c270ad6c099")
+		(property "Reference" "#PWR0121"
+			(at 184.785 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "SGND"
+			(at 184.785 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.785 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.785 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.785 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "690e59ee-9c17-4337-a796-8d3699dad9d1")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Driver_FET:UCC24624D")
+		(at 111.76 62.865 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd33d7cd-29d3-407d-9875-0c5c99c87445")
+		(property "Reference" "U9"
+			(at 108.585 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UCC24624"
+			(at 119.38 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_Project:D0008A_M"
+			(at 111.76 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/product/UCC24624"
+			(at 123.19 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "UCC24624DR"
+			(at 111.76 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-UCC24624DR"
+			(at 111.76 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "296-UCC24624DRCT-ND"
+			(at 111.76 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2862446"
+			(at 111.76 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4b84bb1-f582-4c0d-a32f-a7b6ea49796d")
+		)
+		(pin "2"
+			(uuid "a6a5f244-89e6-4ae5-a12f-088c921dc4bf")
+		)
+		(pin "3"
+			(uuid "a24a2de5-4040-4334-a35b-f218767569e0")
+		)
+		(pin "4"
+			(uuid "5bdcf7da-c2c8-4bed-baba-18bb1a4373ee")
+		)
+		(pin "5"
+			(uuid "565e4251-80bf-4e45-93a1-ed3aecb8d0ee")
+		)
+		(pin "6"
+			(uuid "85708ffe-5d97-4901-9f94-373a1aeaddef")
+		)
+		(pin "7"
+			(uuid "ad2638a7-4cba-4735-973f-23d1d325b0c0")
+		)
+		(pin "8"
+			(uuid "2f03eb47-b327-4e58-ac78-f9cbb5d2c3f1")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 211.455 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5d9ec21-2912-483b-af74-2741319a97f9")
+		(property "Reference" "R68"
+			(at 211.455 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 212.09 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 211.455 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 211.455 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 211.455 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 211.455 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 211.455 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 211.455 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 211.455 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85853eae-23f0-4a9d-b6d5-b2aa94177d54")
+		)
+		(pin "2"
+			(uuid "43838511-5781-467c-97cd-cc8ad228c1e5")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 184.785 61.595 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5e0b329-b0a9-4b94-8d5f-6890ecb5344c")
+		(property "Reference" "C133"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF/50V"
+			(at 188.595 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 185.7502 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/CC0805JRNPO9BN101/302845"
+			(at 184.785 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 184.785 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-1111-1-ND"
+			(at 184.785 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CC0805JRNPO9BN101"
+			(at 184.785 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-CC805JRNPO9BN101"
+			(at 184.785 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C62768"
+			(at 184.785 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cffae74c-7952-440f-88e8-53f781b0e6eb")
+		)
+		(pin "2"
+			(uuid "653a5c7f-5f2a-4d05-ab8f-71b6fb992cff")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "C133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+12V_1")
+		(lib_id "power:+12V")
+		(at 222.25 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5f85c5e-01da-4b12-af37-20c79a982871")
+		(property "Reference" "#PWR052"
+			(at 222.25 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12VSec"
+			(at 222.25 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e317fcda-3450-458e-830f-cf5b907ee631")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 118.745 83.185 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e29882f6-0f0c-41fa-bba5-b6b248c1d78b")
+		(property "Reference" "HS12"
+			(at 123.19 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5mm x 4 mm -U9"
+			(at 123.19 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.0498 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.0498 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.745 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 118.745 83.185 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "HS12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 141.605 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f15449cf-4a72-4c63-a26c-424c5cd4f313")
+		(property "Reference" "#FLG021"
+			(at 141.605 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 149.86 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.605 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 141.605 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 141.605 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "775d574b-fb23-493a-ab03-f05a8feaa687")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "#FLG021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 55.245 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3e374d8-9fd1-4574-8c04-42899f3b8c40")
+		(property "Reference" "R66"
+			(at 54.61 55.245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 54.61 61.595 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 55.245 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-070RL/728216"
+			(at 55.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 55.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-0.0ARCT-ND"
+			(at 55.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-070RL"
+			(at 55.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-070RL"
+			(at 55.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96345"
+			(at 55.245 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "123f8880-dcba-4207-a4b5-67b3b48fbbab")
+		)
+		(pin "2"
+			(uuid "3b13dcdb-8a29-425d-9246-26c4d6e45928")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f7ac3ee1-f273-4a28-93b4-42d39c4919e9")
+		(property "Reference" "C70"
+			(at 159.385 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF/50V"
+			(at 159.385 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 157.1752 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL21B105KBFNNNE/3886687"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "1276-1029-1-ND"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B105KBFNNNE"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B105KBFNNNE"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C28323"
+			(at 156.21 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d27425c9-3590-437f-b505-62480841506b")
+		)
+		(pin "2"
+			(uuid "99bcd3a8-e1a9-4d0c-9829-dab321e9f677")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "C70")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 123.825 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd3d6326-a70c-4e49-a114-3e8fd347bff2")
+		(property "Reference" "HS13"
+			(at 128.27 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5mm x 4 mm -U8"
+			(at 128.27 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.1298 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.1298 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.825 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 123.825 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/ba172a77-903b-4e3a-a83e-82987e4e16db/c0767f93-5e2b-47d2-af2e-e0835164e9ed"
+					(reference "HS13")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -1,0 +1,170 @@
+/LLC_Power/UCC256601GateDriver/UCC25660_5VP
+
+/Output_Filtering/Output_Protection/EN/UVLO
+
+/LLC_Power/Secondary_Gate_Driver/UCC24624_VD#1
+
+/LLC_Power/VOUT
+/Output_Filtering/VOUT*
+/Output_Filtering/Output_Protection/VOUT3
+
+
+Schematic Setup
+Netclass Assignment - Rules
+
+/AC-L
+/AC-N
+/STM32Control/AC-N1
+
+/EMP Filter/ACN
+/EMP Filter/ACL
+/EARTH
+/LLC_Power/PGND2
+PGND1
+SGND
+/Output_Filtering/SGND1
+/Output_Filtering/SGND2
+/EMF Filter/ACL1
+/EMF Filter/ACL2
+/EMF Filter/ACL3
+/EMF Filter/ACL4
+/EMF Filter/ACN4
+
+Power5A
+=========
++3.3V
++3.3V_Sec
++5V
++5VSec
++12V
++12VSec
++18V
+/Auxiliary_Power/+12Vcc
+/Auxiliary_Power/+12Vcc_TR1
+/Auxiliary_Power/+18Vcc_TR1
+/Auxiliary_Power/Auxiliary_Power_Extra/+12V_OUT_LM2596S
+/Auxiliary_Power/Auxiliary_Power_Extra/+12Vcc_OUT_LM2596S
+/Auxiliary_Power/Auxiliary_Power_Extra/+12Vcc_VIN_U28
+
+/LLC_Power/Seconcaryt_Gate_Driver/+12VSec_UCC24624
+/LLC_Power/Seconcaryt_Gate_Driver/+12VSec_UCC27524
+/LLC_Power/UCC21540 Gate Driver/+5V-VCCI
+/Auxiliary_Power/+6Vcc
+/Auxiliary_Power/+6Vcc_TR1
+
+Power3A
+========
+/EMF Filter/RELAY_CTRL1
+/EMF Filter/RELAY_CTRL2
+/STM32Control/RELAY_CTRL
+
+Power10A
+=========
+/PFC_power/HALL-out
+GND1
+HVBUS
+/PFC_power/HVBUS1
+/PFC_power/HVBUS2
+
+
+Power20A
+========
+/LLC_Power/V_BUS
+
+Power5A
+=========
+/Output_Filtering/GATE_Q9
+/Output_Filtering/Output_Protection/GATE_SIJ186DP
+/PFC_power/PFC_GATE
+/PFC_power/PFC_GATE1
+/PFC_power/PFC_GATE2
+
+Power5A
+========
+/LLC_Power/LLC-HOA
+/LLC_Power/LLC-HOA1
+/LLC_Power/LLC-HOA2
+/LLC_Power/LLC-LOA
+/LLC_Power/LLC-LOA1
+/LLC_Power/LLC-LOA2
+/LLC_Power/UCC21540 Gate Driver/OUTA-LLC-LOA
+/LLC_Power/UCC21540 Gate Driver/OUTA-LLC-HOA
+/LLC_Power/UCC256601GateDriver/LLC-HOA_HO
+/LLC_Power/UCC256601GateDriver/LLC-LOA_LO
+
+
+Power20A
+=========
+/LLC_Power/LLC-HSA
+/LLC_Power/LLC-HSA1
+/LLC_Power/ISNS
+/LLC_Power/ISNS1
+
+Power5A
+========
+/LLC_Power/VCCP
+/LLC_Power/VCCP2
+/LLC_Power/VCCP3
+/LLC_Power/UCC256601GateDriver/UCC25660_VCCP2
+/LLC_Power/UCC256601GateDriver/UCC25660_VCCP3
+/LLC_Power/UCC256601GateDriver/VCCP1
+
+
+Power50A
+=========
+/LLC_Power/VD1
+/LLC_Power/VD2
+
+Power3A
+========
+/STM32Control/BLK
+/STM32Control/BLKR
+
+Power3A
+========
+/STM32Control/FB
+/STM32Control/FBR
+
+/Auxiliary_Power/Auxiliary_Power_Extra/U28_FB_12V
+/Secondary_Power/FB_LMR51430_12V
+/Secondary_Power/FB_LMR51430_3V3
+/Secondary_Power/FB_LMR51430_5V
+
+Power5A
+========
+/Secondary_Power/SEC_PWR_RECEIVE
+
+Power3A
+========
+/PFC_power/UCC28180_FREQ
+/PFC_power/UCC28180_ICOMP
+/PFC_power/UCC28180_ICOMP1
+/PFC_power/UCC28180_ISENSE
+/PFC_power/UCC28180_ISENSE1
+/PFC_power/UCC28180_VCOMP
+/PFC_power/UCC28180_VCOMP1
+/PFC_power/UCC28180_VSENSE
+/PFC_power/UCC28180_VSENSE1
+/PFC_power/ACS720KLATR/ACS720_FILTER
+
+Power5A
+========
+/LLC_Power/G1
+/LLC_Power/G1_A
+/LLC_Power/G1_B
+/LLC_Power/Secondary_Gate_Driver/G1_C
+/LLC_Power/Secondary_Gate_Driver/G1_D
+/LLC_Power/G2
+/LLC_Power/G2_A
+/LLC_Power/G2_B
+/LLC_Power/Secondary_Gate_Driver/G2_C
+/LLC_Power/Secondary_Gate_Driver/G2_D
+
+Power3A
+========
+/STM32Control/LLC-HI-A_EPWM1A
+/STM32Control/LLC-LI-A_EPWM1B
+/LLC_Power/UCC21540 Gate Driver/UCC21540_INA
+/LLC_Power/UCC21540 Gate Driver/UCC21540_INB
+
+

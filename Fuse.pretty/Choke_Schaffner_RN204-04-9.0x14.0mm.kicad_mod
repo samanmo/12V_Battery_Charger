@@ -1,0 +1,280 @@
+(footprint "Choke_Schaffner_RN204-04-9.0x14.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Current-compensated Chokes, Schaffner, RN204-04, 9.0mmx14.0mm https://www.schaffner.com/products/download/product/datasheet/rn-series-common-mode-chokes-new/")
+	(tags "chokes schaffner tht")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "e3c63c9a-5e63-4ec5-acb2-0cf3340caed8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Choke_Schaffner_RN204-04-9.0x14.0mm"
+		(at 3.8 13.5 0)
+		(layer "F.Fab")
+		(uuid "1a4347e2-6001-49fa-a081-07183e5b77fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f07fa0ef-a192-422d-99ff-dc87e06cf241")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b105144-d86e-4d9e-9894-5e763e5b888a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.5 -2.5)
+		(end -1.5 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3f080e2-bb21-4328-9686-ed795e0042c4")
+	)
+	(fp_line
+		(start -1.5 -2.5)
+		(end -0.5 -2.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ac209f18-91fc-47f5-8ced-201ca9799b01")
+	)
+	(fp_line
+		(start -0.82 -2.12)
+		(end 8.42 -2.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9844cac0-8e44-4ee3-95b6-887c1f1cae32")
+	)
+	(fp_line
+		(start -0.82 1.5)
+		(end -0.82 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1948b11-3fdf-432d-8048-fd8d781f151e")
+	)
+	(fp_line
+		(start 8.42 1.5)
+		(end 8.42 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "76e91f10-6d0c-42c8-bb7f-0bde79091e37")
+	)
+	(fp_line
+		(start 8.42 12.12)
+		(end -0.82 12.12)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "468d7c0c-8b25-458f-8131-d6fd00f4ca7c")
+	)
+	(fp_line
+		(start -1.25 -2.25)
+		(end -1.25 12.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b7b70043-ae8d-46b9-b5f5-7afc289c257c")
+	)
+	(fp_line
+		(start -1.25 12.25)
+		(end 8.85 12.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d66062b0-ba74-4dec-b84d-21a00b3b650e")
+	)
+	(fp_line
+		(start 8.85 -2.25)
+		(end -1.25 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2f75f541-fc3a-4755-a4b1-0a9139445b03")
+	)
+	(fp_line
+		(start 8.85 12.25)
+		(end 8.85 -2.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "480f16de-7a55-454f-b82a-41eab8f69914")
+	)
+	(fp_line
+		(start -0.7 -2)
+		(end 8.3 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "83653e46-1291-47b3-9cec-b6618aae31be")
+	)
+	(fp_line
+		(start -0.7 -1)
+		(end -0.7 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cf667b9e-9e78-4428-95e0-c6d7dbdb19b1")
+	)
+	(fp_line
+		(start -0.7 1)
+		(end 0.3 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8fe882f1-3440-40a2-aac8-3396cd3701f5")
+	)
+	(fp_line
+		(start -0.7 12)
+		(end -0.7 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1427fbf8-ee6b-4c38-b42f-304ed5b8bdc6")
+	)
+	(fp_line
+		(start 0.3 0)
+		(end -0.7 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78c5b4e4-5aac-4e0a-8852-1d220164f708")
+	)
+	(fp_line
+		(start 8.3 -2)
+		(end 8.3 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d7e3cc3-50d4-40a1-96d3-2f38d92e1e2a")
+	)
+	(fp_line
+		(start 8.3 12)
+		(end -0.7 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "32f03701-603f-4170-83a7-b7f18fa1744c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.8 5 0)
+		(layer "F.Fab")
+		(uuid "082fdd9a-1ff4-4c62-be8a-73601819d3ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "73e14a3e-662f-4885-8ffc-7671aaef7575")
+	)
+	(pad "2" thru_hole circle
+		(at 7.6 0)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9051ef5f-32c5-4f31-82c4-b17be2a16f04")
+	)
+	(pad "3" thru_hole circle
+		(at 0 10)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fdd63a83-ebb4-4176-b511-eac6f09f196a")
+	)
+	(pad "4" thru_hole circle
+		(at 7.6 10)
+		(size 2 2)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "33e46307-ec1d-49a5-83d7-c90b9d6ba965")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Inductor_THT.3dshapes/Choke_Schaffner_RN204-04-9.0x14.0mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

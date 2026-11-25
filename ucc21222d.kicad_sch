@@ -1,0 +1,320 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a852b7a5-69c8-49c6-8d97-7f3bc2a4c6d1")
+	(paper "A4")
+	(lib_symbols)
+	(text "EMI Filter PMP41006"
+		(exclude_from_sim no)
+		(at 22.225 95.885 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "0bd13f22-449f-4750-8de0-6b1047e67dd9")
+	)
+	(text "F:\\video_tutorials\\5025.BatteryCharger\\TexasInstruments\\MOSFET_Controller"
+		(exclude_from_sim no)
+		(at 22.86 104.775 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59b0bde1-b035-4745-a618-5beb9857ccd3")
+	)
+	(text "https://www.digikey.com/en/products/category/circuit-protection/9"
+		(exclude_from_sim no)
+		(at 172.085 24.765 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "79961d9a-ad20-4ecb-9320-b5ee9c61f1ab")
+	)
+	(text "https://www.mouser.com/datasheet/2/277/HR1001B-2945332.pdf"
+		(exclude_from_sim no)
+		(at 22.86 113.665 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99d0fc80-cd27-4207-97fe-5bc2ac200a95")
+	)
+	(text "For CHOKES common mode/ differencial - OCTOPART https://octopart.com/"
+		(exclude_from_sim no)
+		(at 22.86 87.63 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ed63e7a-0b0d-4207-99b7-b987460f8d66")
+	)
+	(text "https://www.digikey.com/ordering/shoppingcart"
+		(exclude_from_sim no)
+		(at 172.085 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f75326b-d3b0-4aa1-b4a4-cd926f6b6b56")
+	)
+	(text "HR1001B (LLC Controller).pdf"
+		(exclude_from_sim no)
+		(at 22.86 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c975ca27-9301-4594-b52f-319ba7205a4d")
+	)
+	(text "OPTIONAL GATE DRIVER - NOT NECESSORY"
+		(exclude_from_sim no)
+		(at 22.86 35.56 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef1da04d-e287-4112-a488-a53618b4f600")
+	)
+	(text "https://www.electricity-magnetism.org/differential-mode-chokes/#:~:text=Differential%20Mode%20Chokes%20are%20passive,a%20wire%20carrying%20a%20current."
+		(exclude_from_sim no)
+		(at 22.86 66.675 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6b1d064-0fb2-4d4e-bdc0-b0db1b8d296d")
+	)
+	(text_box "Wire to Board\nhttps://www.digikey.com/en/products/filter/wire-to-board/371"
+		(exclude_from_sim no)
+		(at 22.86 19.05 0)
+		(size 106.68 7.62)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "406dad79-496d-42f8-b678-8f6d4b06cae8")
+	)
+	(text_box "EMI Filters on Power Supplies: Design & Application Guide; Altium\nhttps://www.youtube.com/watch?v=ABd5O7NJLr0\nReactive components, differencial Mode Choke, Common Mode Choke, etc."
+		(exclude_from_sim no)
+		(at 142.875 95.25 0)
+		(size 120.65 11.43)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "4792ecdf-2c64-4e86-a6fc-e0afe6af2d68")
+	)
+	(text_box "F:\\video_tutorials\\5025.BatteryCharger\\TexasInstruments\\Rack & server PSU with 48-V output\\PMP41006_1-kW reference design with CCM totem pole PFC and current-mode LLC\nE:\\workspace\\KiCad_workspace\\12V_BatteryCharger_LeadAcid\n\nHR1001B (LLC Controller).pdf"
+		(exclude_from_sim no)
+		(at 22.86 118.745 0)
+		(size 122.555 14.605)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5bc9d92a-db04-4280-a5a5-f46d9a336a30")
+	)
+	(text_box "PCB Trace Width Calculator\n==========================\nhttps://www.pcbway.com/pcb_prototype/trace-width-calculator.html\nhttps://www.digikey.com/en/resources/conversion-calculators/conversion-calculator-pcb-trace-width\nhttps://www.4pcb.com/trace-width-calculator.html\n"
+		(exclude_from_sim no)
+		(at 22.86 172.085 0)
+		(size 123.19 13.335)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7944cb76-2cc2-47be-84e4-6d24306bc775")
+	)
+	(text_box "https://www.paytongroup.com/planar-transformers\nTransformer Manufacturers."
+		(exclude_from_sim no)
+		(at 22.86 137.795 0)
+		(size 83.185 8.255)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "865d70bb-d4f5-45ff-93b3-5d7bb492fb17")
+	)
+	(text_box "Class-Y Capacitors are commonly referred to as “line to ground” or “line bypass” capacitors. Class-Y capacitors are typically placed in between the AC supply and ground, to handle EMI/RF noise caused by common mode noise"
+		(exclude_from_sim no)
+		(at 100.965 110.49 0)
+		(size 179.705 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "8f9c7fc5-af1a-428f-9207-35005d4ebf3e")
+	)
+	(text_box "F:\\video_tutorials\\5025.BatteryCharger\\TexasInstruments\\Rack & server PSU with 48-V output\\PMP41006_1-kW reference design with CCM totem pole PFC and current-mode LLC\nE:\\workspace\\KiCad_workspace\\12V_BatteryCharger_LeadAcid"
+		(exclude_from_sim no)
+		(at 22.86 71.755 0)
+		(size 158.75 8.89)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dfc87e2c-c140-4d89-aa05-bd78bb9011d9")
+	)
+	(text_box "Class-Y Capacitors are commonly referred to as “line to ground” or “line bypass” capacitors. Class-Y capacitors are typically placed in between the AC supply and ground, to handle EMI/RF noise caused by common mode noise"
+		(exclude_from_sim no)
+		(at 22.86 56.515 0)
+		(size 179.705 6.35)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left top)
+		)
+		(uuid "e71bab39-0d68-42e9-9272-1aa8ff26d3b9")
+	)
+	(text_box "https://youtu.be/nkHFoxe0mrU?si=4lARiD6KFB4yIedF\nWatch \"KiCad 7 STM32 Bluetooth Hardware Design (1/2 Schematic) - Phil's Lab #127\" on YouTube\n\nhttps://youtu.be/FqT_Ofd54fo?si=9IYCF00f-O_7FWCi \nWatch \"Switching Regulator Component Selection & Sizing - Phil's Lab #71\" on YouTube"
+		(exclude_from_sim no)
+		(at 22.86 150.495 0)
+		(size 130.81 15.875)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "ef1e0e6f-164c-404b-a626-0183a54d469d")
+	)
+	(text_box "EMI Filters on Power Supplies: Design & Application Guide\nhttps://www.youtube.com/watch?v=ABd5O7NJLr0\nAltium\nReactive components, differencial Mode Choke, Common Mode Choke, etc."
+		(exclude_from_sim no)
+		(at 22.86 40.64 0)
+		(size 98.425 11.43)
+		(margins 1.125 1.125 1.125 1.125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.5 1.5)
+			)
+			(justify left top)
+		)
+		(uuid "f1cf4d4a-7b6c-4073-8e10-dec7421a5149")
+	)
+)

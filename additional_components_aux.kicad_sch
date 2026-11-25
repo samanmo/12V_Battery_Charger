@@ -1,0 +1,5175 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "6eadfde0-2d9f-440f-a18f-bbb2644916eb")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Bobbin_Coil_Former_project:B66362B1014T001"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "B66362B1014T001"
+				(at 2.54 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Bobbin_Coil_Former_project:B66362B1014T001"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/etd_34_17_11.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ferrite Accessories, E Cores Accessories(EFD/ER/ETD), Coil former (ETD 34/17/11)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "33.1"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "871-B66362B1014T001"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B66362B1014T001?qs=w5o0Loj0u7M9FVK%2Ff7P38g%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "TDK"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "B66362B1014T001"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "495-5464-ND B66362B1014T001 871-B66362B1014T001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B66362B1014T001_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Bobbin_Coil_Former_project:B66398W1024T001"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TR"
+				(at -12.7 18.542 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B66398W1024T001"
+				(at -12.7 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Bobbin_Coil_Former_project:XFMR_B66398W1024T001"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BOBBIN COIL FORMER ETD 59X31X22 B66398W1024T 1 ETD59/31/22 B66398W1024T001"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "May 2017"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "TDK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "49.2mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer recommendations"
+				(at -1.27 -22.225 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "B66398W1024T001 B66398W1024T1  ETD59/31/22 "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B66398W1024T001_0_0"
+				(rectangle
+					(start -12.7 -15.24)
+					(end 12.7 17.78)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.048 3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -5.08)
+					(mid -1.2755 -3.81)
+					(end -2.54 -2.54)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -2.54)
+					(mid -1.2755 -1.27)
+					(end -2.54 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 0)
+					(mid -1.2755 1.27)
+					(end -2.54 2.54)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 2.54)
+					(mid -1.2755 3.81)
+					(end -2.54 5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -5.08) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 5.715) (xy -0.635 -5.715)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 5.715) (xy 0.635 -5.715)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 -2.54)
+					(mid 1.2755 -3.81)
+					(end 2.54 -5.08)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.2755 -1.27)
+					(end 2.54 -2.54)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 2.54)
+					(mid 1.2755 1.27)
+					(end 2.54 0)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 3.81)
+					(radius 0.254)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 5.08)
+					(mid 1.2755 3.81)
+					(end 2.54 2.54)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -17.78 15.24 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -7.62 0)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -12.7 0)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -12.7 180)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -10.16 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 2.54 180)
+					(length 5.08)
+					(name "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 7.62 180)
+					(length 5.08)
+					(name "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 10.16 180)
+					(length 5.08)
+					(name "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 12.7 180)
+					(length 5.08)
+					(name "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 15.24 180)
+					(length 5.08)
+					(name "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 10.16 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 2.54 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 0 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Dummy_Comp_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "ZCo"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dummy component to add extra items to BOM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dummy components "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Dummy_Comp_1_0_1"
+				(rectangle
+					(start 0 5.08)
+					(end 9.525 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Dummy_Comp_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "ZCo"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dummy component to add extra items to BOM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dummy components "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Dummy_Comp_2_0_1"
+				(rectangle
+					(start 0 5.08)
+					(end 9.525 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Dummy_component_project:Dummy_Comp"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "ZCo"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dummy component to add extra items to BOM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "dummy components "
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Dummy_Comp_0_1"
+				(rectangle
+					(start 0 5.08)
+					(end 9.525 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Ferrite_core_for_transformers_project:B66361G0000X197"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "F.Core"
+				(at 3.81 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B66361G0000X197"
+				(at 10.16 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66361G0000X197/4945589"
+				(at 48.895 -8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FERRITE CORE ETD N97 ETD 34/17/11 Uncoated N97 Ferrite Core ETD Type 1.339\" (34.00mm) Length 0.437\" (11.10mm) Width Diameter 0.689\" (17.50mm) Height"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "B66361G0000X197 495-B66361G0000X197-ND 871-B66361GX197"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B66361G0000X197_0_1"
+				(rectangle
+					(start 0 1.905)
+					(end 1.905 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Ferrite_core_for_transformers_project:B66397G2000X187"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "F.Core"
+				(at 2.54 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "B66397G2000X187"
+				(at 8.89 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66397G2000X187/3915642"
+				(at 42.545 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "FERRITE CORE ETD N87 1PC ETD 59 x 31 x 22  Uncoated N87 Ferrite Core ETD Type 2.354\" (59.80mm) Length 0.870\" (22.10mm) Width Diameter 1.228\" (31.20mm) Height ETD 59 x 31 x 22"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "B66397G2000X187 495-5505-ND 871-B66397G2000X187"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "B66397G2000X187_0_1"
+				(rectangle
+					(start 0 1.905)
+					(end 1.905 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 118.745 83.185)
+		(uuid "05f6910e-2cbe-44c3-94d9-e15cef117c5e")
+	)
+	(no_connect
+		(at 154.305 120.015)
+		(uuid "0bc685e1-8939-4130-86bd-4ad4ffbe7683")
+	)
+	(no_connect
+		(at 64.135 131.445)
+		(uuid "115e2416-de76-4254-94a2-6ce50090c1a2")
+	)
+	(no_connect
+		(at 64.135 86.995)
+		(uuid "136d00aa-238c-4162-b233-2c254cf0dfe1")
+	)
+	(no_connect
+		(at 118.745 112.395)
+		(uuid "1c94071d-4a06-4d17-8cf6-4d858d80527c")
+	)
+	(no_connect
+		(at 141.605 80.645)
+		(uuid "1eebb9e9-9da5-4923-a461-0e77828eeaeb")
+	)
+	(no_connect
+		(at 99.695 126.365)
+		(uuid "1f8b68ca-4efd-4b32-b886-4cd8cc72c7e1")
+	)
+	(no_connect
+		(at 118.745 80.645)
+		(uuid "214c368b-1a05-4751-a05e-2468a3d468e9")
+	)
+	(no_connect
+		(at 118.745 137.795)
+		(uuid "2717e0ed-2528-44c4-804b-c5686387aba4")
+	)
+	(no_connect
+		(at 141.605 90.805)
+		(uuid "27813554-54a0-4f92-8a2a-ee1ab00829d2")
+	)
+	(no_connect
+		(at 86.995 86.995)
+		(uuid "2b13c4a9-cd1a-41b6-802b-b74cac2a8328")
+	)
+	(no_connect
+		(at 86.995 84.455)
+		(uuid "2c191cb0-8e44-4b5a-a395-6321a50f4d66")
+	)
+	(no_connect
+		(at 99.695 128.905)
+		(uuid "2d8010ff-47e6-42b7-9b3f-e1092a526c73")
+	)
+	(no_connect
+		(at 64.135 136.525)
+		(uuid "2f5bdc14-44de-4080-96c9-1a1b68abc7fa")
+	)
+	(no_connect
+		(at 154.305 122.555)
+		(uuid "34a5e01f-dfbd-43b0-8fc0-860ac3c1a50b")
+	)
+	(no_connect
+		(at 141.605 88.265)
+		(uuid "3b4387b7-02e4-454e-a998-2ede4bfd4dec")
+	)
+	(no_connect
+		(at 154.305 127.635)
+		(uuid "46511044-b04a-45ed-af39-a47cc84cc48a")
+	)
+	(no_connect
+		(at 86.995 89.535)
+		(uuid "46515570-d11b-4fbf-a20b-c1ad90aad6ae")
+	)
+	(no_connect
+		(at 99.695 133.985)
+		(uuid "46a824b4-8e40-4bd3-8169-cffdbfdf4fea")
+	)
+	(no_connect
+		(at 118.745 135.255)
+		(uuid "49aba575-8277-4a00-b012-b7365ff49563")
+	)
+	(no_connect
+		(at 64.135 84.455)
+		(uuid "4bf4ff78-12f9-4adc-8ab3-d753ca280c2f")
+	)
+	(no_connect
+		(at 99.695 108.585)
+		(uuid "4c751803-f86d-4f00-8079-9a5c73a6537c")
+	)
+	(no_connect
+		(at 86.995 92.075)
+		(uuid "4d0ba73d-1aad-4d2b-9e8f-af9cb66c7919")
+	)
+	(no_connect
+		(at 154.305 112.395)
+		(uuid "5b324d93-29b7-4218-957c-1fb94b22ae3c")
+	)
+	(no_connect
+		(at 154.305 130.175)
+		(uuid "5f5dd8c0-83a2-4dca-907f-a925f563f5d0")
+	)
+	(no_connect
+		(at 118.745 132.715)
+		(uuid "71e17cc1-f3bc-4662-9b73-29979b887825")
+	)
+	(no_connect
+		(at 118.745 109.855)
+		(uuid "75f6f1b6-5928-4c3f-aa6b-a1857b68f768")
+	)
+	(no_connect
+		(at 64.135 121.285)
+		(uuid "7678a2da-eaa2-41c9-8737-1787c837aea1")
+	)
+	(no_connect
+		(at 64.135 76.835)
+		(uuid "786f3421-e322-4bc7-81d9-befa92d0bc6d")
+	)
+	(no_connect
+		(at 64.135 123.825)
+		(uuid "79de34c6-e52b-4752-b875-fbbcbecb8ebc")
+	)
+	(no_connect
+		(at 118.745 127.635)
+		(uuid "7d429cc8-884c-4911-82c1-bad8e94cadea")
+	)
+	(no_connect
+		(at 64.135 79.375)
+		(uuid "82a95c3c-3396-4c6c-828c-94b04359f7e2")
+	)
+	(no_connect
+		(at 64.135 133.985)
+		(uuid "82de1a7d-c57f-442b-96c3-f75b6f095a4e")
+	)
+	(no_connect
+		(at 99.695 118.745)
+		(uuid "84bd284a-49e4-4d16-abc9-b27ac64be5a1")
+	)
+	(no_connect
+		(at 118.745 130.175)
+		(uuid "859b23d1-5eae-4412-85cd-a4e44d5c9bc2")
+	)
+	(no_connect
+		(at 64.135 118.745)
+		(uuid "8b3df9ba-14f5-416e-a661-6d5974d74257")
+	)
+	(no_connect
+		(at 86.995 81.915)
+		(uuid "8c58968f-f7b7-4356-900f-3a5ee75ed056")
+	)
+	(no_connect
+		(at 141.605 78.105)
+		(uuid "8dd83ffb-ffc5-47c9-90c0-a7e7bb33b01c")
+	)
+	(no_connect
+		(at 99.695 116.205)
+		(uuid "8ea6647f-8ffd-4738-9361-9cee647dd119")
+	)
+	(no_connect
+		(at 154.305 117.475)
+		(uuid "901b3ac3-b2ce-461b-9791-59e7795c284c")
+	)
+	(no_connect
+		(at 154.305 137.795)
+		(uuid "993735ee-4da2-473c-9970-1bac70731caf")
+	)
+	(no_connect
+		(at 64.135 92.075)
+		(uuid "99827e72-aca9-4741-a0fd-a7297406fd49")
+	)
+	(no_connect
+		(at 64.135 113.665)
+		(uuid "9afc7282-7599-4c13-b23d-c098c9de4ade")
+	)
+	(no_connect
+		(at 141.605 85.725)
+		(uuid "9e559f1a-589e-4516-af23-d0ef431104ee")
+	)
+	(no_connect
+		(at 118.745 85.725)
+		(uuid "9ec8ebc3-db51-4d4a-9ca3-ec1ca978c2bd")
+	)
+	(no_connect
+		(at 154.305 135.255)
+		(uuid "a3174ce9-b622-4870-bcad-353a88cebaca")
+	)
+	(no_connect
+		(at 118.745 120.015)
+		(uuid "a54bc2cb-9b36-45b0-be67-8f7b53e24915")
+	)
+	(no_connect
+		(at 64.135 111.125)
+		(uuid "ae1fd7cd-d41a-4237-91cb-6eda69c143d6")
+	)
+	(no_connect
+		(at 154.305 125.095)
+		(uuid "aeaa7173-8db0-403e-8280-bf77ec1031dc")
+	)
+	(no_connect
+		(at 64.135 89.535)
+		(uuid "b5e078f6-d975-4fa9-900b-0e75d4114ad2")
+	)
+	(no_connect
+		(at 64.135 81.915)
+		(uuid "b7a381fc-a2e5-4659-8bd7-778d3207e0ab")
+	)
+	(no_connect
+		(at 118.745 78.105)
+		(uuid "ba28a10b-eb84-4dcd-885e-fcd163949931")
+	)
+	(no_connect
+		(at 64.135 128.905)
+		(uuid "c0d6d1cf-d5a3-48be-89c6-860102893ef3")
+	)
+	(no_connect
+		(at 154.305 114.935)
+		(uuid "c1c70a67-bc6e-469c-a35e-a90a99c027a3")
+	)
+	(no_connect
+		(at 64.135 126.365)
+		(uuid "c1e31006-16c0-4af5-91bf-88a5d36094ca")
+	)
+	(no_connect
+		(at 118.745 125.095)
+		(uuid "c2d2e88f-1427-4421-96e6-fd1b21016071")
+	)
+	(no_connect
+		(at 154.305 132.715)
+		(uuid "c88bd6b7-c839-4d1b-842d-5aefb7f4b424")
+	)
+	(no_connect
+		(at 99.695 113.665)
+		(uuid "c925c280-bf1c-4fe6-be00-cec222315e2a")
+	)
+	(no_connect
+		(at 154.305 109.855)
+		(uuid "d2111bbe-f746-4758-8433-cd680a50788c")
+	)
+	(no_connect
+		(at 64.135 116.205)
+		(uuid "d4349561-bfea-4634-9bee-348787d99e5e")
+	)
+	(no_connect
+		(at 99.695 111.125)
+		(uuid "d47a4a2d-893b-4dbe-973c-fa9047179640")
+	)
+	(no_connect
+		(at 118.745 93.345)
+		(uuid "d4caf6ce-f33c-47e5-a89d-1e59f56fc0ee")
+	)
+	(no_connect
+		(at 118.745 122.555)
+		(uuid "d670fff6-2ab3-47c5-a5a6-857f10bdcd8f")
+	)
+	(no_connect
+		(at 118.745 88.265)
+		(uuid "d981d6ca-01f9-4723-a9b6-b0ffafa4c369")
+	)
+	(no_connect
+		(at 99.695 123.825)
+		(uuid "db99a683-ae5f-4d54-9fbf-831512c0a8bb")
+	)
+	(no_connect
+		(at 141.605 83.185)
+		(uuid "dea88a0d-aa74-4ae8-935e-052ec01dd407")
+	)
+	(no_connect
+		(at 86.995 79.375)
+		(uuid "df7a83f2-f11a-4b4d-ab51-a626c7ef0a0d")
+	)
+	(no_connect
+		(at 99.695 121.285)
+		(uuid "e3697179-6622-4f31-bb3a-7f7ea6bc94eb")
+	)
+	(no_connect
+		(at 118.745 90.805)
+		(uuid "e3b9e4e0-890b-4349-aef9-cea8e72ca137")
+	)
+	(no_connect
+		(at 141.605 93.345)
+		(uuid "eaea096b-c5a8-4ede-a054-22cbf3a120c5")
+	)
+	(no_connect
+		(at 99.695 136.525)
+		(uuid "eafe8bf3-43f3-401f-b22a-ca09b91a2633")
+	)
+	(no_connect
+		(at 118.745 117.475)
+		(uuid "ebdf0dfb-d712-433c-8d47-57b5685e7e7b")
+	)
+	(no_connect
+		(at 64.135 108.585)
+		(uuid "ede734a8-5bf5-4ae0-9b4f-0bcbf1c40582")
+	)
+	(no_connect
+		(at 86.995 76.835)
+		(uuid "f025013b-7e19-4680-b9bd-8a888847ba0f")
+	)
+	(no_connect
+		(at 118.745 114.935)
+		(uuid "fadbe930-ce9f-4912-a58d-8b8cdea16a88")
+	)
+	(no_connect
+		(at 99.695 131.445)
+		(uuid "fe78c848-97de-4daa-80c5-a62c4dd26dcd")
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 161.925 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "077bd7ac-94b7-4e45-b4b8-0e40f12d440f")
+		(property "Reference" "ZCo29"
+			(at 45.085 159.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1M"
+			(at 39.37 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805JR-071ML/728219"
+			(at 43.18 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-1.0MARCT-ND"
+			(at 43.18 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805JR-071ML"
+			(at 43.18 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805JR-071ML"
+			(at 43.18 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17514"
+			(at 43.18 161.925 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Dummy_Comp_2")
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 177.165 45.085 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "208489cc-59e5-479b-9559-6f35a37b08b8")
+		(property "Reference" "ZCo34"
+			(at 187.96 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "190 µH @ 100 kHz"
+			(at 166.37 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.165 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B82726S3543N040/3502596"
+			(at 177.165 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.165 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-6974-ND"
+			(at 177.165 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B82726S3543N040"
+			(at 177.165 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B82726S3543N040"
+			(at 177.165 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 177.165 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "24e88ead-f4a4-4832-b4ba-7c99ec9a47ae")
+		(property "Reference" "ZCo12"
+			(at 45.72 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.4k"
+			(at 40.005 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-071K4L/727487"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-1.40KCRCT-ND"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071K4L"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-071K4L"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2930161"
+			(at 43.18 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 66.675 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "280f729d-6583-4f66-8492-5482add48cc1")
+		(property "Reference" "ZCo16"
+			(at 45.72 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.99k"
+			(at 40.005 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K99L/727938"
+			(at 43.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-4.99KCRCT-ND"
+			(at 43.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-074K99L"
+			(at 43.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-074K99L"
+			(at 43.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17677"
+			(at 43.18 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 111.125 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "2ff432cd-7652-42bb-9b59-92cdf78fd4e4")
+		(property "Reference" "ZCo22"
+			(at 45.72 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "15k"
+			(at 40.005 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-0715KL/5896576"
+			(at 43.18 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "YAG3695CT-ND"
+			(at 43.18 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "AC0805FR-0715KL"
+			(at 43.18 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-AC0805FR-0715KL"
+			(at 43.18 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2930170"
+			(at 43.18 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bobbin_Coil_Former_project:B66362B1014T001")
+		(at 118.745 78.105 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "31ff6982-86c7-480b-81db-2fee4cb2842d")
+		(property "Reference" "TR6"
+			(at 130.175 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B66362B1014T001"
+			(at 130.175 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bobbin_Coil_Former_project:B66362B1014T001"
+			(at 137.795 173.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/etd_34_17_11.pdf"
+			(at 137.795 273.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 118.745 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "33.1"
+			(at 137.795 473.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66362B1014T001"
+			(at 137.795 573.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B66362B1014T001?qs=w5o0Loj0u7M9FVK%2Ff7P38g%3D%3D"
+			(at 137.795 673.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 137.795 773.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66362B1014T001"
+			(at 137.795 873.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-5464-ND"
+			(at 118.745 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 118.745 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b7fbfc4-ffa3-4d98-8001-452fc156d050")
+		)
+		(pin "10"
+			(uuid "aba17205-e174-4f6c-9b62-037ace8f005a")
+		)
+		(pin "11"
+			(uuid "670776c1-49a0-423c-b429-dd0f199be879")
+		)
+		(pin "12"
+			(uuid "12b26c52-5f80-4230-8a12-7a1c14a2cce3")
+		)
+		(pin "13"
+			(uuid "7ead4221-7f2f-4903-a298-030f46ea26b4")
+		)
+		(pin "14"
+			(uuid "7c190fd2-837a-4299-bcb7-ce524bf3edcc")
+		)
+		(pin "2"
+			(uuid "ca6ed551-853e-4627-9ccb-d7d97e33c5d6")
+		)
+		(pin "3"
+			(uuid "7cb9dc63-a79e-47bb-9eb7-3d8208381052")
+		)
+		(pin "4"
+			(uuid "55352389-ca7f-4cc5-9d73-8a81b8d8e059")
+		)
+		(pin "5"
+			(uuid "91df3cea-fc34-4c9c-a86d-786b8f1c1254")
+		)
+		(pin "6"
+			(uuid "e5ec226a-c201-4abb-8b23-b1e9715b63fa")
+		)
+		(pin "7"
+			(uuid "f26336ad-7ffd-4fd3-9d9c-eea9cee32e83")
+		)
+		(pin "8"
+			(uuid "5566986d-d169-4d10-82fa-8357913cff54")
+		)
+		(pin "9"
+			(uuid "02e6115d-78cf-461e-a863-2950f2d281bf")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "TR6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ferrite_core_for_transformers_project:B66361G0000X197")
+		(at 66.04 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "370ab9c7-6f2a-41d6-ba08-9e59d131e71f")
+		(property "Reference" "F.Core1"
+			(at 68.58 51.1175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B66361G0000X197"
+			(at 68.58 53.6575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66361G0000X197/4945589"
+			(at 114.935 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-B66361G0000X197-ND"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66361G0000X197"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66361GX197"
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 66.04 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "F.Core1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "3a857212-3856-442b-81c9-e61767f5abae")
+		(property "Reference" "ZCo17"
+			(at 45.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "7.5k"
+			(at 40.005 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-077K5L/728116"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-7.50KCRCT-ND"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-077K5L"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-077K5L"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17807"
+			(at 43.18 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ferrite_core_for_transformers_project:B66361G0000X197")
+		(at 120.65 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "43610c90-88de-42ed-b687-61c9945e2aa5")
+		(property "Reference" "F.Core3"
+			(at 123.19 51.1175 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B66361G0000X197"
+			(at 123.825 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66361G0000X197/4945589"
+			(at 169.545 61.595 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-B66361G0000X197-ND"
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66361G0000X197"
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66361GX197"
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "F.Core3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bobbin_Coil_Former_project:B66398W1024T001")
+		(at 136.525 125.095 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "55a69b63-1aac-42f2-8d90-631ccc701990")
+		(property "Reference" "TR7"
+			(at 136.525 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B66398W1024T001"
+			(at 136.525 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bobbin_Coil_Former_project:XFMR_B66398W1024T001"
+			(at 136.525 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/b66398w1024t001/3914904"
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "May 2017"
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "49.2mm"
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 135.255 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-5509-ND"
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66398W1024T001"
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66398W1024T1"
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 136.525 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb1859ba-1878-4260-8a03-c8e89c945ba5")
+		)
+		(pin "10"
+			(uuid "b217eb66-7d3d-438d-9ff8-99b7c17ca417")
+		)
+		(pin "11"
+			(uuid "16efd2e7-df5f-46c1-aebf-3d477902b82f")
+		)
+		(pin "12"
+			(uuid "57d01abf-3a67-4efb-b568-070fd4c20a7a")
+		)
+		(pin "13"
+			(uuid "32540c82-5341-4cd8-bab0-e4f2905a9942")
+		)
+		(pin "14"
+			(uuid "e62e769d-d26a-4d61-8639-1914a5d009cf")
+		)
+		(pin "15"
+			(uuid "e5e54e48-fcde-4155-b184-9d98cbb741eb")
+		)
+		(pin "16"
+			(uuid "99f1b9f4-7e4e-4fcc-9e76-529ed3ee261c")
+		)
+		(pin "17"
+			(uuid "51a141a3-20fc-4209-a879-92793e07ba87")
+		)
+		(pin "18"
+			(uuid "986142b5-9886-41ae-9b40-c4e37611c227")
+		)
+		(pin "19"
+			(uuid "e3c50a2e-de42-49e0-bde3-1c6bbd112721")
+		)
+		(pin "2"
+			(uuid "1e86f3bf-f296-4466-9c85-023be1cde78c")
+		)
+		(pin "20"
+			(uuid "a2f504b5-a5be-423f-b7cb-cae4a3858a8d")
+		)
+		(pin "21"
+			(uuid "53203f6a-7cd3-4b74-ac71-8a41a832bfe7")
+		)
+		(pin "22"
+			(uuid "f3ae572f-a2aa-4725-bb5a-41ef4f20be8c")
+		)
+		(pin "23"
+			(uuid "9cffd297-6106-4fbd-b721-9646bf9ed16b")
+		)
+		(pin "24"
+			(uuid "03d0ed14-7aa7-4849-afd4-8150c10ce792")
+		)
+		(pin "3"
+			(uuid "05aa595f-2ada-4a4c-8fad-9abdafbdd931")
+		)
+		(pin "4"
+			(uuid "e90ed7c2-9619-47c1-b429-92fb2462a5dc")
+		)
+		(pin "5"
+			(uuid "74132bea-93bb-4c4b-8475-5ad183771098")
+		)
+		(pin "6"
+			(uuid "d5cde0dd-312e-4277-89ee-f01d71abadc8")
+		)
+		(pin "7"
+			(uuid "da0dd635-b023-4492-b7d1-55b4fdfc42dd")
+		)
+		(pin "8"
+			(uuid "177b0d5e-9a13-44ed-8b0f-e2a99ceb94a9")
+		)
+		(pin "9"
+			(uuid "cf1cc20f-fd17-4b22-bbae-957e5ef0b8a4")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "TR7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "5e6a3050-4f49-4b43-ac6c-b2cab1f6df40")
+		(property "Reference" "ZCo13"
+			(at 45.72 42.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.47k"
+			(at 37.465 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-071K47L/727493"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-1.47KCRCT-ND"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071K47L"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-071K47L"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3016519"
+			(at 43.18 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 118.745 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "6c172a63-cf1d-4c12-b310-766ef46d4237")
+		(property "Reference" "ZCo23"
+			(at 45.72 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20k"
+			(at 40.005 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0720KL/727720"
+			(at 43.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-20.0KCRCT-ND"
+			(at 43.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-0720KL"
+			(at 43.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-0720KL"
+			(at 43.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114566"
+			(at 43.18 118.745 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 80.645 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "6cfa03e6-0b28-42ff-97c3-9e7cce02ad44")
+		(property "Reference" "ZCo18"
+			(at 45.72 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "8.2k"
+			(at 40.005 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-078K2L/728147"
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-8.20KCRCT-ND"
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-078K2L"
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-078K2L"
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17828"
+			(at 43.18 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "72c786d7-83b9-4ecc-a667-c5d9b8db8775")
+		(property "Reference" "ZCo21"
+			(at 45.72 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "30k"
+			(at 40.005 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0730KL/727843"
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-30.0KCRCT-ND"
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-0730KL"
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-0730KL"
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2930272"
+			(at 43.18 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ferrite_core_for_transformers_project:B66397G2000X187")
+		(at 120.65 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73dbbe9f-c8ef-45c0-9308-7140465720e4")
+		(property "Reference" "F.Core4"
+			(at 123.19 58.1025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B66397G2000X187"
+			(at 123.19 60.6425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66397G2000X187/3915642"
+			(at 163.195 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-5505-ND"
+			(at 120.65 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66397G2000X187"
+			(at 120.65 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66397G2000X187"
+			(at 120.65 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 120.65 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "F.Core4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "838150f5-11e8-486f-bf59-c25fbbd41d51")
+		(property "Reference" "ZCo30"
+			(at 46.355 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2k"
+			(at 39.37 167.005 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-072KL/727664"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-2.00KCRCT-ND"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-072KL"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-072KL"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114572"
+			(at 43.18 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Dummy_Comp_1")
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 177.165 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "8d995693-aeea-414f-ac53-cfdd285a2201")
+		(property "Reference" "ZCo33"
+			(at 187.96 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "210 µH @ 100 kHz"
+			(at 166.37 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.165 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/kemet/SCR39XV-500-Z2R4B004JH/18153957"
+			(at 177.165 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.165 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "399-SCR39XV-500-Z2R4B004JH-ND"
+			(at 177.165 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SCR39XV-500-Z2R4B004JH"
+			(at 177.165 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-SCR39XV50Z2R4B4JH"
+			(at 177.165 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 177.165 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "8dfec13b-85fe-4e43-bd8c-4c0dde73c70a")
+		(property "Reference" "ZCo28"
+			(at 45.72 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "510k"
+			(at 40.005 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07510KL/728017"
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-510KCRCT-ND"
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07510KL"
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-07510KL"
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2933462"
+			(at 43.18 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 126.365 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "918d8aad-b3f6-4020-ae52-76f685769c2d")
+		(property "Reference" "ZCo24"
+			(at 45.72 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "49.9k"
+			(at 39.37 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0749K9L/727985"
+			(at 43.18 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-49.9KCRCT-ND"
+			(at 43.18 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-0749K9L"
+			(at 43.18 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-0749K9L"
+			(at 43.18 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17719"
+			(at 43.18 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "928a1e24-1b8e-4dbe-bff1-a919c1191c80")
+		(property "Reference" "ZCo20"
+			(at 45.72 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12.1k"
+			(at 40.005 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0712K1L/727570"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-12.1KCRCT-ND"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-0712K1L"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-0712K1L"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2907225"
+			(at 43.18 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 64.135 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "9470f41e-2456-451d-ba21-113888dab0a5")
+		(property "Reference" "ZCo31"
+			(at 66.675 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Test Point small 1.6 x 0.8"
+			(at 88.9 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.135 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RCUCTE/11476561"
+			(at 64.135 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.135 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "2019-RCUCTECT-ND"
+			(at 64.135 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RCUCTE"
+			(at 64.135 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "660-RCUCTE"
+			(at 64.135 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 64.135 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Ferrite_core_for_transformers_project:B66397G2000X187")
+		(at 66.04 60.325 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9806d06d-814b-496f-8f2e-dcffd12ae27b")
+		(property "Reference" "F.Core2"
+			(at 68.58 58.1025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B66397G2000X187"
+			(at 68.58 60.6425 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/B66397G2000X187/3915642"
+			(at 108.585 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-5505-ND"
+			(at 66.04 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66397G2000X187"
+			(at 66.04 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66397G2000X187"
+			(at 66.04 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 66.04 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "F.Core2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 147.955 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "ac578008-40ba-43ec-9c1d-dca9a4a7b9e4")
+		(property "Reference" "ZCo27"
+			(at 45.72 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "249k"
+			(at 40.005 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07249KL/727766"
+			(at 43.18 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-249KCRCT-ND"
+			(at 43.18 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07249KL"
+			(at 43.18 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-07249KL"
+			(at 43.18 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3016651"
+			(at 43.18 147.955 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 64.135 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "b263335c-2d4d-4b11-b4bc-a4fd3826cb28")
+		(property "Reference" "ZCo32"
+			(at 66.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2x2 pin jumper"
+			(at 83.185 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 64.135 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.135 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.135 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 64.135 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 133.985 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "b943a723-64a4-43da-901f-546746938205")
+		(property "Reference" "ZCo25"
+			(at 45.085 131.445 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 40.005 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07100KL/727544"
+			(at 43.18 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-100KCRCT-ND"
+			(at 43.18 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at 43.18 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-07100KL"
+			(at 43.18 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C96346"
+			(at 43.18 133.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "c362f81e-9918-4e8a-928c-328dbd91fe67")
+		(property "Reference" "ZCo26"
+			(at 45.72 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "196k"
+			(at 40.005 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-07196KL/727662"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-196KCRCT-ND"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07196KL"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-07196KL"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2933352"
+			(at 43.18 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bobbin_Coil_Former_project:B66398W1024T001")
+		(at 81.915 123.825 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "cd8f79a3-ceda-4581-b696-fc1b5c7d3e8e")
+		(property "Reference" "TR5"
+			(at 81.915 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B66398W1024T001"
+			(at 81.915 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bobbin_Coil_Former_project:XFMR_B66398W1024T001"
+			(at 81.915 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/epcos-tdk-electronics/b66398w1024t001/3914904"
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "May 2017"
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "TDK"
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "49.2mm"
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer recommendations"
+			(at 80.645 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-5509-ND"
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66398W1024T001"
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66398W1024T1"
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 81.915 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92aa1da9-4474-47ed-8b6c-32c56ff6ba2d")
+		)
+		(pin "10"
+			(uuid "4db346d3-90a9-4b7b-8ed6-9b116a3f8861")
+		)
+		(pin "11"
+			(uuid "5be1f71b-0d24-42e1-8ce1-e5fd8e7ad965")
+		)
+		(pin "12"
+			(uuid "13b16d98-7e3c-4647-ace7-22af9e54ec48")
+		)
+		(pin "13"
+			(uuid "73214231-2b8a-43c8-8855-f1e14ae88d6b")
+		)
+		(pin "14"
+			(uuid "92a137c3-b331-43d9-923c-868d6663283e")
+		)
+		(pin "15"
+			(uuid "e3f8146a-4415-4c15-a169-7107c4c76e68")
+		)
+		(pin "16"
+			(uuid "f5c6b898-5662-4da8-9e66-dc239d01ec30")
+		)
+		(pin "17"
+			(uuid "3ccf64d1-74a1-4886-9e52-5c060449556b")
+		)
+		(pin "18"
+			(uuid "906e5c8c-bcfe-420a-8dd9-cf31e1aaa740")
+		)
+		(pin "19"
+			(uuid "899e5b63-05fc-4e3e-9102-dd780d39ac8f")
+		)
+		(pin "2"
+			(uuid "b677042b-bbd4-49c3-811d-d4a7402c7895")
+		)
+		(pin "20"
+			(uuid "fbb870b0-18b3-47e8-ae8e-a45cbbd149ce")
+		)
+		(pin "21"
+			(uuid "4db9228e-3112-45ab-a37c-09cdbb11e99c")
+		)
+		(pin "22"
+			(uuid "32a308da-9f5f-426a-b1c6-445ee69c5f4c")
+		)
+		(pin "23"
+			(uuid "3a3224fc-2dca-479d-8ff6-bdd2f48a5b16")
+		)
+		(pin "24"
+			(uuid "b2d4efcb-3c0f-465d-b5db-1f9588bf31a6")
+		)
+		(pin "3"
+			(uuid "73c36e96-a218-47f9-ae06-a87dc4a2c2cb")
+		)
+		(pin "4"
+			(uuid "176e1399-709c-437f-9c1d-c1e6920c4f46")
+		)
+		(pin "5"
+			(uuid "81f26f01-c67e-4367-8872-019ec94ab532")
+		)
+		(pin "6"
+			(uuid "70635ae3-32a1-4d7a-8105-97eadf06d5b6")
+		)
+		(pin "7"
+			(uuid "1f99d11a-e656-4207-8d93-77f5d9528d2e")
+		)
+		(pin "8"
+			(uuid "ac4b3a82-b195-4578-ab50-14f06c11b05c")
+		)
+		(pin "9"
+			(uuid "cfd9420c-1cd8-48b8-9192-946825b8353c")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "TR5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bobbin_Coil_Former_project:B66362B1014T001")
+		(at 64.135 76.835 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "ce772392-e3ec-4d99-9fff-8c0e8ebc32c0")
+		(property "Reference" "TR4"
+			(at 75.565 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "B66362B1014T001"
+			(at 75.565 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bobbin_Coil_Former_project:B66362B1014T001"
+			(at 83.185 171.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/ferrite/ferrite/ferrite-acc/data_sheet/80/db/fer/etd_34_17_11.pdf"
+			(at 83.185 271.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 64.135 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "33.1"
+			(at 83.185 471.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "871-B66362B1014T001"
+			(at 83.185 571.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B66362B1014T001?qs=w5o0Loj0u7M9FVK%2Ff7P38g%3D%3D"
+			(at 83.185 671.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 83.185 771.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "B66362B1014T001"
+			(at 83.185 871.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "495-5464-ND"
+			(at 64.135 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 64.135 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ad7a6696-df98-49cd-81da-9657ee067d3f")
+		)
+		(pin "10"
+			(uuid "aeb8f1d3-d035-4ec6-8ef5-c1b513eefd33")
+		)
+		(pin "11"
+			(uuid "3d213b0e-5680-4cb8-bef8-8017002ec673")
+		)
+		(pin "12"
+			(uuid "578e7b94-2c6e-412f-bc40-ddd38d2c9249")
+		)
+		(pin "13"
+			(uuid "8af04742-b420-49bd-9712-ba239f559652")
+		)
+		(pin "14"
+			(uuid "bbee05f1-852b-4e7d-88dc-b4acc972dbee")
+		)
+		(pin "2"
+			(uuid "dcd61d33-2d5c-43e8-a10d-a3f08dfa1e92")
+		)
+		(pin "3"
+			(uuid "ee741ce2-0a97-4efd-b177-6fb85f3a3ad4")
+		)
+		(pin "4"
+			(uuid "1067bd28-3308-4e76-a0f3-0c986420f0d3")
+		)
+		(pin "5"
+			(uuid "eda5e576-9f4e-4db2-91af-cac17d32c52e")
+		)
+		(pin "6"
+			(uuid "3d0f71f9-f068-478e-b574-5ee4c78666c2")
+		)
+		(pin "7"
+			(uuid "eadab2b0-d8ce-405c-8d79-db22b57c45fa")
+		)
+		(pin "8"
+			(uuid "5a50172d-bdc8-41e7-b09a-a4b584bc5de8")
+		)
+		(pin "9"
+			(uuid "a3ea2f44-e424-4283-b70d-cd4f4dbe06df")
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "TR4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 59.055 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "d75bdaac-a8d1-496c-b695-485cc278fdb5")
+		(property "Reference" "ZCo15"
+			(at 45.72 56.515 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.64k"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-074K64L/727926"
+			(at 43.18 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-4.64KCRCT-ND"
+			(at 43.18 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-074K64L"
+			(at 43.18 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-074K64L"
+			(at 43.18 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17673"
+			(at 43.18 59.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "e460eb04-8427-4049-97fa-9d6af98f8996")
+		(property "Reference" "ZCo19"
+			(at 45.72 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 39.37 85.725 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-0710KL/727535"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-10.0KCRDKR-ND"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-0710KL"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-0710KL"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17414"
+			(at 43.18 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Dummy_component_project:Dummy_Comp")
+		(at 43.18 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp yes)
+		(uuid "ee38cf07-c30a-4935-9732-15a17c64c5ba")
+		(property "Reference" "ZCo14"
+			(at 45.72 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3k"
+			(at 38.735 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/yageo/RC0805FR-073K3L/727813"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digi-Key_PN" "311-3.30KCRCT-ND"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-073K3L"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0805FR-073K3L"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26020"
+			(at 43.18 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "12V_BatteryCharger_LeadAcid"
+				(path "/5dba2d65-4dd2-43b3-bd90-80eea7d06b57/2cdd4198-d180-42fc-9638-940b58b80469/9a9ec7ec-d495-4fbf-a282-58dc28ec7ad9/e48aea50-1e9d-4aa6-9bf2-f4b8b5ff9f3d"
+					(reference "ZCo14")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

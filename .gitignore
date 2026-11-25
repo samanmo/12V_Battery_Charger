@@ -1,0 +1,32 @@
+# KiCad backups and autosaves
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*~
+production_JLPCB/
+pcbway_production/
+Schematics_SIM868_v0.08.pdf
+.history/
+
+
+# Lock and temporary files
+*.lck
+*.tmp
+~*
+
+# Generated netlists, BOMs, and reports
+*.net
+*.xml
+*.csv
+*.rpt
+*.erc
+*.drc
+
+# Manufacturing outputs (upload these to GitHub Releases instead)
+gerbers/
+*.gbr
+*.drl
+*.pos
