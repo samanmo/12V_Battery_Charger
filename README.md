@@ -1,4 +1,4 @@
-# 12V Half-Bridge LLC Battery Charger
+# 12V Half-Bridge LLC Battery Charger | KiCad Designer
 
 A high-efficiency **12V battery charger** designed for **240V AC mains input**, utilizing a Power Factor Correction (PFC) front-end and a Half-Bridge LLC resonant converter controlled by an STM32 microcontroller.
 
